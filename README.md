@@ -1,6 +1,11 @@
 # vue-comp-api-demo
 
-## Project setup
+Lightly testing the Vue Composition API with some help from Buefy/Bulma and axios (Soon to implement Vue-Router)
+
+
+## Commands
+
+### Project setup
 ```
 npm install
 ```

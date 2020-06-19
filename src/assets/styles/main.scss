@@ -1,8 +1,2 @@
-// Variables
-$main-color: #77b72f;
-$main-color-text: tint($main-color, 0.5);
-
-
-
-@import './base';
-@import './layout';
+@import "base";
+@import "layout";

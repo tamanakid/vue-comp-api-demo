@@ -5,11 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "dev-build": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@vue/composition-api": "^0.6.4",
-    "bulma": "^0.9.0",
+    "axios": "^0.19.2",
+    "buefy": "^0.8.20",
     "core-js": "^3.6.5",
     "i": "^0.3.6",
     "vue": "^2.6.11",
