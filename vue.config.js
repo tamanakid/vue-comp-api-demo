@@ -7,7 +7,9 @@ module.exports = {
     loaderOptions: {
       sass: {
         prependData: `
-          @import '~buefy/dist/buefy.css'
+          @import "~buefy/node_modules/bulma/sass/utilities/initial-variables";
+          @import "~buefy/node_modules/bulma/bulma";
+          @import "~buefy/src/scss/buefy.scss";
           @import "@/assets/styles/global.scss";
         `
       }
