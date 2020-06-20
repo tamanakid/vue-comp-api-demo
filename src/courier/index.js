@@ -11,7 +11,7 @@ export const courier = axios.create({
 	headers: {
 		'Content-Type': 'application/json'
 	}
-})
+});
 
 
 
